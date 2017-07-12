@@ -8,7 +8,8 @@ var eleccionMaquina;
 
 function comenzar()
 {
-	
+var random=parseInt(math.random)=(4-1)+1;
+var usuario
 
 
 }//FIN DE LA FUNCIÓN
@@ -19,11 +20,32 @@ function piedra()
 }//FIN DE LA FUNCIÓN
 function papel()
 {
-
+switch(random)
+{
+    case 1:
+    alert("pierde");
+    break;
+    case 2:
+    alert("gana");
+    break;
+    case 3:
+    alert("empate");
+    break;
+}
 
 }//FIN DE LA FUNCIÓN
 function tijera()
 {
-	
-
-}//FIN DE LA FUNCIÓN
+    switch(random)
+   { case 1:
+    alert("pierde");
+    break;
+    case 2:
+        alert("gana");
+     break;
+        case 3:
+     alert("empate");
+        break;
+    }
+}
+//FIN DE LA FUNCIÓN
