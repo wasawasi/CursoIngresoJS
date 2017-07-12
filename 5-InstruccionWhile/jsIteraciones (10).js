@@ -29,7 +29,7 @@ function Mostrar()
 		else if (numero == 0){
 			c_ceros = c_ceros + 1;
 		}
-		//numeros pares ? preguntar profesor, alguna funcion en javascript ? 
+		
 
 		respuesta = confirm('¿ Continuar ?');
 	}
